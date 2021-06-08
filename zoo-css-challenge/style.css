@@ -76,6 +76,7 @@ footer {
 }
 
 .introduction {
+  background-color: white;
 }
 .introduction p {
   line-height: 30px;
@@ -144,7 +145,13 @@ h3 {
   color: #beee62;
 }
 .giraffe :nth-child(2) {
-  font-size: 20px;
+  font-size: larger;
+}
+.news {
+}
+.cardcontainer {
+  display: flex;
+  flex-direction: row;
 }
 .news h2 {
   text-align: center;
@@ -228,4 +235,8 @@ h3 {
 
 .programs .card {
   display: inline-block;
+}
+
+.programs h2 {
+  text-align: center;
 }
